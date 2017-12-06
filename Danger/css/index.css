@@ -13,9 +13,60 @@
 
 ul {
   list-style: none; }
+  ul li {
+    font-size: 16px; }
+
+a {
+  text-decoration: none !important; }
+
+.grey-icon {
+  color: #c3c3c3; }
 
 .slider {
-  width: 100%;
-  height: 100%; }
+  margin-top: 11.5%; }
+  .slider .owl-carousel .item {
+    width: 669.5px; }
+    .slider .owl-carousel .item img {
+      display: block;
+      width: 100%; }
+    .slider .owl-carousel .item .text {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      background-color: #000;
+      padding: 20px;
+      opacity: 1;
+      z-index: 3; }
+      .slider .owl-carousel .item .text h5 {
+        color: #fff;
+        text-transform: capitalize;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px; }
+      .slider .owl-carousel .item .text .stars {
+        width: 100%;
+        position: relative;
+        float: left; }
+        .slider .owl-carousel .item .text .stars ul.stars {
+          color: #ffb911;
+          float: right; }
+          .slider .owl-carousel .item .text .stars ul.stars li {
+            display: inline-block; }
+      .slider .owl-carousel .item .text .slider-btn {
+        width: 100%;
+        position: relative;
+        float: left;
+        margin-top: 20px; }
+        .slider .owl-carousel .item .text .slider-btn a {
+          padding: 10px 30px; }
+        .slider .owl-carousel .item .text .slider-btn .white {
+          color: #000;
+          background-color: #eee;
+          border-radius: 50px; }
+          .slider .owl-carousel .item .text .slider-btn .white span {
+            font-size: 16px;
+            font-weight: bold;
+            /* overflow: hidden; */
+            /* display: inline-block; */
+            text-align: center; }
 
 /*# sourceMappingURL=index.css.map */
